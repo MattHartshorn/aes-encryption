@@ -1,8 +1,7 @@
 import os
 import random
-from enum import enum
 
-
+seeded = False
 
 def generate(size=256):
     """ Randomly generates an array of bytes used for AES encryption

@@ -1,9 +1,5 @@
 import unittest
-import sys 
-import os
-
-sys.path.append(os.path.abspath("../src"))
-import keygenerator
+from src import keygenerator
 
 class TestKeyGenerator(unittest.TestCase):
     def test_generate_zero(self):
